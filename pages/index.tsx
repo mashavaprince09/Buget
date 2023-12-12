@@ -238,7 +238,7 @@ const transferCUSD = async (address: string, userAddress: string) => {
             <Button text="Transact" loading={loading} onClick={handleTransactClick} />
             {/* Add the "GoToSMS" button below */}
               <Link href="/SMSForm">
-                <Button text="GoToSMS" onClick={() => { /* handle GoToSMS button click if needed */ }} loading={false} />
+                <Button text="TopMeUp" onClick={() => { /* handle GoToSMS button click if needed */ }} loading={false} />
               </Link>
           </>
         )}
